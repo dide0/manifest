@@ -1,0 +1,2 @@
+# manifest
+mojo manifest
