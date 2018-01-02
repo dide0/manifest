@@ -2,12 +2,13 @@
  
 <manifest>
  
-<remote name="TeamRegular" fetch="https://github.com/TeamRegular" />
-<remote name="ATV" fetch="https://github.com/A-TV" />
-<remote name="dide0" fetch="https://github.com/dide0" />
-
-<project path="vendor/google/atv" name="proprietary_vendor_google_atv" remote="dide0" revision="atv-gapps"/>
-<project path="device/madcatz/mojo" name="android_device_madcatz_mojo" remote="dide0" revision="cm-12.1-tv"/>
-<project path="vendor/madcatz/mojo" name="android_vendor_madcatz_mojo" remote="dide0" revision="cm-12.1-tv"/>
-<project path="kernel/madcatz/mojo" name="android_kernel_madcatz_mojo" remote="dide0" revision="cm-12.1"/>
+<remote name="TeamRegular" fetch="https://github.com/TeamRegular"/>
+<remote name="ATV" fetch="https://github.com/A-TV"/>
+<remote name="dide0" fetch="https://github.com/dide0"/>
+<remote name="Tegra4" fetch="https://github.com/Tegra4"/>
+<remote name="nono2lozere" fetch="https://github.com/nono2lozere"/>
+ 
+<project path="device/madcatz/mojo" name="android_device_madcatz_mojo" remote="dide0" revision="cm-13.0-tv"/>
+<project path="vendor/madcatz/mojo" name="android_vendor_madcatz_mojo" remote="dide0" revision="cm-13.0-tv"/>
+<project path="kernel/madcatz/mojo" name="android_kernel_madcatz_mojo" remote="nono2lozere" revision="cm-13.0"/>
 </manifest>
